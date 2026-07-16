@@ -24,7 +24,7 @@ from .infrastructure.pdf_reader import PdfPlumberReader
 
 load_dotenv()
 
-my_secret_key = os.getenv("AQ.Ab8RN6IAZelO6fiKkA_1dNWdno5BBnRR7RUQlucmkox4WmFWgw")
+my_secret_key = os.getenv("AQ.Ab8RN6JLaBQuuUwKXNQ6w47gaA-pt64lfzIzLugCCpNXpd0-lw")
 
 app = FastAPI(title="DocFlow API", version="0.1.0")
 
